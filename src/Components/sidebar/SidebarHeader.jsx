@@ -20,7 +20,7 @@ const SidebarHeader = () => {
                 <RandomReveal isPlaying duration={4} characterSet={alphabetPersian} characters="مرضیه کاوئی" />
             </Typography>
             <Typography variant="caption" color="gray">
-                فرانت اند دولوپر
+               توسعه دهنده فرانت اند
             </Typography>
             <SocailMedia />
         </>

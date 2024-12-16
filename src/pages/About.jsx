@@ -1,5 +1,4 @@
-import { Card, CardContent } from "@mui/material";
-import Grid from "@mui/material/Unstable_Grid2/Grid2";
+import { Card, CardContent, Grid, Box} from "@mui/material";
 import avatar from "../assets/IMG_20230322_194235_717.jpg";
 import { DevInfo, Skills, DevWorkCount} from "../Components/pages";
 import { CodeRounded, SelfImprovementRounded } from "@mui/icons-material"
@@ -52,18 +51,24 @@ const About = ({ helmetTitle }) => {
                         </Grid>
                     </Grid>
 
-                    <Grid
+                    <Grid item
                         xs={0}
                         sm={0}
                         md={4}
                         lg={4}
                         xl={4}
                     >
-                        <CustomAvatar
-                            avatar={avatar}
-                            size={200}
-                            fallback="mk"
-                        />
+                        <Box
+            sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                height: "100%",
+                mt: { xs: 2, sm: 0 } // فاصله از بالا در سایزهای کوچک
+            }}
+        >
+            <CustomAvatar avatar={avatar} size={200} fallback="mk" />
+        </Box>
                     </Grid>
                 </Grid>
                 <Grid container>

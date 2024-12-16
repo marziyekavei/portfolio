@@ -5,7 +5,7 @@ const CustomAvatar = ({ avatar, size, fallback }) => {
         <>
             <Avatar
                 src={avatar}
-                variant="rounded"
+                variant="circular"
                 sx={{
                     height: size,
                     width: size,

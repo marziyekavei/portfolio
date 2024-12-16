@@ -15,8 +15,8 @@ const SidebarFooter = () => {
                 }}
             >
                 <Typography variant='subtitle2' color="text.primary">
-                    طراحی شده با {" "}
-                    <FavoriteRounded sx={{ verticalAlign: "middle", color: "tomato", height: 20 }} />
+                    طراحی شده با {" "} MUI & React
+                    {/* <FavoriteRounded sx={{ verticalAlign: "middle", color: "tomato", height: 20 }} /> */}
                 </Typography>
 
                 <Typography variant='caption' color="text.primary" sx={{ mt: 2 }}>

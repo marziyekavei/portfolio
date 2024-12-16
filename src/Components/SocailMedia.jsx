@@ -1,4 +1,4 @@
-import { GitHub, Telegram, Instagram, WhatsApp } from '@mui/icons-material';
+import { GitHub, Telegram, LinkedIn, WhatsApp } from '@mui/icons-material';
 import { Box, IconButton } from "@mui/material";
 
 const SocailMedia = () => {
@@ -9,12 +9,12 @@ const SocailMedia = () => {
                     <GitHub sx={{ color: "gray" }} />
                 </a>
             </IconButton>
-            <IconButton aria-label='Github'>
-                <a href='https://instagram.com/marzie.Kavei' target='_blank' rel='noopener noreferrer'>
-                    <Instagram sx={{ color: "gray" }} />
+            <IconButton aria-label='LinkedIn'>
+                <a href='https://www.linkedin.com/in/marziyekavei' target='_blank' rel='noopener noreferrer'>
+                    <LinkedIn sx={{ color: "gray" }} />
                 </a>
             </IconButton>
-            <IconButton aria-label='Github'>
+            {/* <IconButton aria-label='Github'>
                 <a href='https://telgram.com' target='_blank' rel='noopener noreferrer'>
                     <Telegram sx={{ color: "gray" }} />
                 </a>
@@ -23,7 +23,7 @@ const SocailMedia = () => {
                 <a href='https://watsapp.com' target='_blank' rel='noopener noreferrer'>
                     <WhatsApp sx={{ color: "gray" }} />
                 </a>
-            </IconButton>
+            </IconButton> */}
         </Box>
     )
 }

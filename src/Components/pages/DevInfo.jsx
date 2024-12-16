@@ -24,10 +24,10 @@ const DevInfo = () => {
     return (
         <>
             <Info>  نام و نام خانوادگی : مرضیه کاوئی</Info>
-            <Info> سن :  23 </Info>
+            <Info> سن :  24 </Info>
             <Info> شهر :  اراک</Info>
             <Info> marziyekavei@gmail.com : آدرس ایمیل</Info>
-            <Info> شماره موبایل :  09199513873 </Info>
+            <Info> شماره موبایل :  091324769988 </Info>
         </>
     )
 }

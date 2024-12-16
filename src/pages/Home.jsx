@@ -84,14 +84,10 @@ const Home = ({helmetTitle}) => {
                 options={links} />
 
             <Box component="div" sx={{ display: "flex" }}>
-                <Typography variant='h3' color="currentcolor">
-                    {"{{"}
-                </Typography>
+               
                 <Typography ref={nameEl} variant='h3' color={"currentcolor"}>
                 </Typography>
-                <Typography variant='h3' color="currentcolor">
-                    {"}}"}
-                </Typography>
+               
             </Box>
 
             <Box component="div" sx={{ display: "flex" }}>
