@@ -4,7 +4,7 @@ import { Box, IconButton } from "@mui/material";
 const SocailMedia = () => {
     return (
         <Box component="div" sx={{ m: "0 auto", textAlign: "center" }} >
-            <IconButton aria-label='Github'>
+            <IconButton aria-label='GitHub'>
                 <a href='https://github.com/marziyeKavei' target='_blank' rel='noopener noreferrer'>
                     <GitHub sx={{ color: "gray" }} />
                 </a>
